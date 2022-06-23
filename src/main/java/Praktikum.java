@@ -1,7 +1,7 @@
 public class Praktikum {
 
     public static void main(String[] args) {
-        String name = "Нармухан Бекнур";
+        String name = " ";
         Account account = new Account(name);
         System.out.println("Result of checking: " + account.checkNameToEmboss());
     }

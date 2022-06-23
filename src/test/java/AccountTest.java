@@ -18,6 +18,8 @@ public class AccountTest {
     @Parameters
     public static Object[][] getParameters() {
         return new Object[][]{
+                //проверка пустой строки
+                {" ", false}, //пустая строка
                 {"Нармуханбекнур", false},//0 пробелов
                 {"Нармухан Бекнур", true},//1 пробел
                 {"Первый нармухан бекнур", false},//2 пробела
